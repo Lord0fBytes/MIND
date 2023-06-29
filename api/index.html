@@ -17,7 +17,7 @@
       
       
       <link rel="icon" href="../assets/img/favicon.svg">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.16">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.17">
     
     
       
@@ -431,9 +431,179 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         API
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    Authentication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supplying-data" class="md-nav__link">
+    Supplying data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#endpoints" class="md-nav__link">
+    Endpoints
+  </a>
+  
+    <nav class="md-nav" aria-label="Endpoints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authlogin" class="md-nav__link">
+    /auth/login
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authlogout" class="md-nav__link">
+    /auth/logout
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authstatus" class="md-nav__link">
+    /auth/status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#useradd" class="md-nav__link">
+    /user/add
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user" class="md-nav__link">
+    /user
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notificationservices" class="md-nav__link">
+    /notificationservices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notificationservicesintn_id" class="md-nav__link">
+    /notificationservices/&lt;int:n_id&gt;
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reminders" class="md-nav__link">
+    /reminders
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reminderssearch" class="md-nav__link">
+    /reminders/search
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reminderstest" class="md-nav__link">
+    /reminders/test
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remindersintr_id" class="md-nav__link">
+    /reminders/&lt;int:r_id&gt;
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templates" class="md-nav__link">
+    /templates
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templatessearch" class="md-nav__link">
+    /templates/search
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templatesintt_id" class="md-nav__link">
+    /templates/&lt;int:t_id&gt;
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staticreminders" class="md-nav__link">
+    /staticreminders
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staticreminderssearch" class="md-nav__link">
+    /staticreminders/search
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staticremindersints_id" class="md-nav__link">
+    /staticreminders/&lt;int:s_id&gt;
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -466,6 +636,160 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    Authentication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supplying-data" class="md-nav__link">
+    Supplying data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#endpoints" class="md-nav__link">
+    Endpoints
+  </a>
+  
+    <nav class="md-nav" aria-label="Endpoints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authlogin" class="md-nav__link">
+    /auth/login
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authlogout" class="md-nav__link">
+    /auth/logout
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authstatus" class="md-nav__link">
+    /auth/status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#useradd" class="md-nav__link">
+    /user/add
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user" class="md-nav__link">
+    /user
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notificationservices" class="md-nav__link">
+    /notificationservices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notificationservicesintn_id" class="md-nav__link">
+    /notificationservices/&lt;int:n_id&gt;
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reminders" class="md-nav__link">
+    /reminders
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reminderssearch" class="md-nav__link">
+    /reminders/search
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reminderstest" class="md-nav__link">
+    /reminders/test
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remindersintr_id" class="md-nav__link">
+    /reminders/&lt;int:r_id&gt;
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templates" class="md-nav__link">
+    /templates
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templatessearch" class="md-nav__link">
+    /templates/search
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templatesintt_id" class="md-nav__link">
+    /templates/&lt;int:t_id&gt;
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staticreminders" class="md-nav__link">
+    /staticreminders
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staticreminderssearch" class="md-nav__link">
+    /staticreminders/search
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staticremindersints_id" class="md-nav__link">
+    /staticreminders/&lt;int:s_id&gt;
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -483,14 +807,1717 @@
 
 
 <h1 id="api">API<a class="headerlink" href="#api" title="Permanent link">&para;</a></h1>
-<p>Coming soon</p>
+<p>Below is the API documentation. Report an issue on <a href="https://github.com/Casvt/MIND/issues">GitHub</a>.</p>
+<p>All endpoints have the <code class="highlight">/api</code> prefix. That means, for example, that <code class="highlight">/auth/login</code> can be reached at <code class="highlight">/api/auth/login</code>.</p>
+<h2 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Permanent link">&para;</a></h2>
+<p>Authentication is done using an API key. To log in, make a POST request to the <a href="#authlogin"><code class="highlight">/api/auth/login</code></a> endpoint. You'll receive an API key, which you can then use in your requests to authenticate. Supply it as a url parameter with the key <code class="highlight">api_key</code>. This API key is valid for one hour, after which the key expires, any further requests return 401 'APIKeyExpired' and you are required to log in again. If no <code class="highlight">api_key</code> is supplied or it is invalid, 401 <code class="highlight">APIKeyInvalid</code> is returned.</p>
+<p>For example:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>curl<span class="w"> </span>-sSL<span class="w"> </span><span class="s1">&#39;http://192.168.2.15:8080/api/reminders?api_key=ABCDEFG&#39;</span>
+</code></pre></div></p>
+<h2 id="supplying-data">Supplying data<a class="headerlink" href="#supplying-data" title="Permanent link">&para;</a></h2>
+<p>Often, data needs to be supplied with a request. If the parameters need to be supplied via <code class="highlight">url</code>, add them to the url as url parameters. If the parameters need to be supplied via <code class="highlight">body</code>, add them to the body as a json object and supply the <code class="highlight">Content-Type: application/json</code> header.</p>
+<p>For example:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># URL parameter</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>curl<span class="w"> </span>-sSL<span class="w"> </span><span class="s1">&#39;http://192.168.2.15:8080/api/reminders/search?api_key=ABCDEFG&amp;query=Fountain&amp;sort_by=time_reversed&#39;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="c1"># Body parameter</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>curl<span class="w"> </span>-sSLX<span class="w"> </span>POST<span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span>-H<span class="w"> </span><span class="s1">&#39;Content-Type: application/json&#39;</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;title&quot;: &quot;Test service&quot;, &quot;url&quot;: &quot;test://fake/url&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="s1">&#39;http://192.168.2.15:8080/api/notificationservices?api_key=ABCDEFG&#39;</span>
+</code></pre></div></p>
+<h2 id="endpoints">Endpoints<a class="headerlink" href="#endpoints" title="Permanent link">&para;</a></h2>
+<p>The following is automatically generated. Please report any issues on <a href="https://github.com/Casvt/MIND/issues">GitHub</a>.</p>
+<h3 id="authlogin"><code class="highlight">/auth/login</code><a class="headerlink" href="#authlogin" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>Login to a user account</td>
+</tr>
+</tbody>
+</table>
+<details class="post">
+<summary>Post</summary>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>username</td>
+<td>Yes</td>
+<td>The username of the user account</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>password</td>
+<td>Yes</td>
+<td>The password of the user account</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>201</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>KeyNotFound</td>
+<td>A key was not found in the input that is required to be given</td>
+</tr>
+<tr>
+<td>401</td>
+<td>AccessUnauthorized</td>
+<td>The password given is not correct</td>
+</tr>
+<tr>
+<td>404</td>
+<td>UserNotFound</td>
+<td>The user requested can not be found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="authlogout"><code class="highlight">/auth/logout</code><a class="headerlink" href="#authlogout" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Logout of a user account</td>
+</tr>
+</tbody>
+</table>
+<details class="post">
+<summary>Post</summary>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>201</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="authstatus"><code class="highlight">/auth/status</code><a class="headerlink" href="#authstatus" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Get current status of login</td>
+</tr>
+</tbody>
+</table>
+<details class="get">
+<summary>Get</summary>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="useradd"><code class="highlight">/user/add</code><a class="headerlink" href="#useradd" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>Create a new user account</td>
+</tr>
+</tbody>
+</table>
+<details class="post">
+<summary>Post</summary>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>username</td>
+<td>Yes</td>
+<td>The username of the user account</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>password</td>
+<td>Yes</td>
+<td>The password of the user account</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>201</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>KeyNotFound</td>
+<td>A key was not found in the input that is required to be given</td>
+</tr>
+<tr>
+<td>400</td>
+<td>UsernameInvalid</td>
+<td>The username contains invalid characters</td>
+</tr>
+<tr>
+<td>400</td>
+<td>UsernameTaken</td>
+<td>The username is already taken</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="user"><code class="highlight">/user</code><a class="headerlink" href="#user" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Manage a user account</td>
+</tr>
+</tbody>
+</table>
+<details class="put">
+<summary>Put</summary>
+<p>Change the password of the user account</p>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>new_password</td>
+<td>Yes</td>
+<td>The new password of the user account</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>KeyNotFound</td>
+<td>A key was not found in the input that is required to be given</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="delete">
+<summary>Delete</summary>
+<p>Delete the user account</p>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="notificationservices"><code class="highlight">/notificationservices</code><a class="headerlink" href="#notificationservices" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Manage the notification services</td>
+</tr>
+</tbody>
+</table>
+<details class="get">
+<summary>Get</summary>
+<p>Get a list of all notification services</p>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="post">
+<summary>Post</summary>
+<p>Add a notification service</p>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>Yes</td>
+<td>The title of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>url</td>
+<td>Yes</td>
+<td>The Apprise URL of the notification service</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>201</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+<tr>
+<td>400</td>
+<td>KeyNotFound</td>
+<td>A key was not found in the input that is required to be given</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="notificationservicesintn_id"><code class="highlight">/notificationservices/&lt;int:n_id&gt;</code><a class="headerlink" href="#notificationservicesintn_id" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Manage a specific notification service</td>
+</tr>
+</tbody>
+</table>
+<p>Replace <code class="highlight">&lt;int:n_id&gt;</code> with the ID of the entry. For example: <code class="highlight">/notificationservices/2</code>.</p>
+<details class="get">
+<summary>Get</summary>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NotificationServiceNotFound</td>
+<td>The notification service was not found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="put">
+<summary>Put</summary>
+<p>Edit the notification service</p>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>No</td>
+<td>The title of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>url</td>
+<td>No</td>
+<td>The Apprise URL of the notification service</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NotificationServiceNotFound</td>
+<td>The notification service was not found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="delete">
+<summary>Delete</summary>
+<p>Delete the notification service</p>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NotificationServiceNotFound</td>
+<td>The notification service was not found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="reminders"><code class="highlight">/reminders</code><a class="headerlink" href="#reminders" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Manage the reminders</td>
+</tr>
+</tbody>
+</table>
+<details class="get">
+<summary>Get</summary>
+<p>Get a list of all reminders</p>
+<p><strong>Parameters (url)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sort_by</td>
+<td>No</td>
+<td>How to sort the result</td>
+<td><code class="highlight">time</code>, <code class="highlight">time_reversed</code>, <code class="highlight">title</code>, <code class="highlight">title_reversed</code>, <code class="highlight">date_added</code>, <code class="highlight">date_added_reversed</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="post">
+<summary>Post</summary>
+<p>Add a reminder</p>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>Yes</td>
+<td>The title of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>time</td>
+<td>Yes</td>
+<td>The UTC epoch timestamp that the reminder should be sent at</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>notification_services</td>
+<td>Yes</td>
+<td>Array of the id's of the notification services to use to send the notification</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>text</td>
+<td>No</td>
+<td>The body of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>repeat_quantity</td>
+<td>No</td>
+<td>The quantity of the repeat_interval</td>
+<td><code class="highlight">years</code>, <code class="highlight">months</code>, <code class="highlight">weeks</code>, <code class="highlight">days</code>, <code class="highlight">hours</code>, <code class="highlight">minutes</code></td>
+</tr>
+<tr>
+<td>repeat_interval</td>
+<td>No</td>
+<td>The number of the interval</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>color</td>
+<td>No</td>
+<td>The hex code of the color of the entry, which is shown in the web-ui</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>201</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidTime</td>
+<td>The time given is in the past</td>
+</tr>
+<tr>
+<td>400</td>
+<td>KeyNotFound</td>
+<td>A key was not found in the input that is required to be given</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NotificationServiceNotFound</td>
+<td>The notification service was not found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="reminderssearch"><code class="highlight">/reminders/search</code><a class="headerlink" href="#reminderssearch" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Search through the list of reminders</td>
+</tr>
+</tbody>
+</table>
+<details class="get">
+<summary>Get</summary>
+<p><strong>Parameters (url)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sort_by</td>
+<td>No</td>
+<td>How to sort the result</td>
+<td><code class="highlight">time</code>, <code class="highlight">time_reversed</code>, <code class="highlight">title</code>, <code class="highlight">title_reversed</code>, <code class="highlight">date_added</code>, <code class="highlight">date_added_reversed</code></td>
+</tr>
+<tr>
+<td>query</td>
+<td>Yes</td>
+<td>The search term</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="reminderstest"><code class="highlight">/reminders/test</code><a class="headerlink" href="#reminderstest" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Test send a reminder draft</td>
+</tr>
+</tbody>
+</table>
+<details class="post">
+<summary>Post</summary>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>Yes</td>
+<td>The title of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>notification_services</td>
+<td>Yes</td>
+<td>Array of the id's of the notification services to use to send the notification</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>text</td>
+<td>No</td>
+<td>The body of the entry</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>201</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+<tr>
+<td>400</td>
+<td>KeyNotFound</td>
+<td>A key was not found in the input that is required to be given</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NotificationServiceNotFound</td>
+<td>The notification service was not found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="remindersintr_id"><code class="highlight">/reminders/&lt;int:r_id&gt;</code><a class="headerlink" href="#remindersintr_id" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Manage a specific reminder</td>
+</tr>
+</tbody>
+</table>
+<p>Replace <code class="highlight">&lt;int:r_id&gt;</code> with the ID of the entry. For example: <code class="highlight">/reminders/2</code>.</p>
+<details class="get">
+<summary>Get</summary>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>404</td>
+<td>ReminderNotFound</td>
+<td>The reminder with the id can not be found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="put">
+<summary>Put</summary>
+<p>Edit the reminder</p>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>No</td>
+<td>The title of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>time</td>
+<td>No</td>
+<td>The UTC epoch timestamp that the reminder should be sent at</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>notification_services</td>
+<td>No</td>
+<td>Array of the id's of the notification services to use to send the notification</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>text</td>
+<td>No</td>
+<td>The body of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>repeat_quantity</td>
+<td>No</td>
+<td>The quantity of the repeat_interval</td>
+<td><code class="highlight">years</code>, <code class="highlight">months</code>, <code class="highlight">weeks</code>, <code class="highlight">days</code>, <code class="highlight">hours</code>, <code class="highlight">minutes</code></td>
+</tr>
+<tr>
+<td>repeat_interval</td>
+<td>No</td>
+<td>The number of the interval</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>color</td>
+<td>No</td>
+<td>The hex code of the color of the entry, which is shown in the web-ui</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidTime</td>
+<td>The time given is in the past</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NotificationServiceNotFound</td>
+<td>The notification service was not found</td>
+</tr>
+<tr>
+<td>404</td>
+<td>ReminderNotFound</td>
+<td>The reminder with the id can not be found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="delete">
+<summary>Delete</summary>
+<p>Delete the reminder</p>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>404</td>
+<td>ReminderNotFound</td>
+<td>The reminder with the id can not be found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="templates"><code class="highlight">/templates</code><a class="headerlink" href="#templates" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Manage the templates</td>
+</tr>
+</tbody>
+</table>
+<details class="get">
+<summary>Get</summary>
+<p>Get a list of all templates</p>
+<p><strong>Parameters (url)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sort_by</td>
+<td>No</td>
+<td>How to sort the result</td>
+<td><code class="highlight">title</code>, <code class="highlight">title_reversed</code>, <code class="highlight">date_added</code>, <code class="highlight">date_added_reversed</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="post">
+<summary>Post</summary>
+<p>Add a template</p>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>Yes</td>
+<td>The title of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>notification_services</td>
+<td>Yes</td>
+<td>Array of the id's of the notification services to use to send the notification</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>text</td>
+<td>No</td>
+<td>The body of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>color</td>
+<td>No</td>
+<td>The hex code of the color of the entry, which is shown in the web-ui</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>201</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+<tr>
+<td>400</td>
+<td>KeyNotFound</td>
+<td>A key was not found in the input that is required to be given</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NotificationServiceNotFound</td>
+<td>The notification service was not found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="templatessearch"><code class="highlight">/templates/search</code><a class="headerlink" href="#templatessearch" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Search through the list of templates</td>
+</tr>
+</tbody>
+</table>
+<details class="get">
+<summary>Get</summary>
+<p><strong>Parameters (url)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sort_by</td>
+<td>No</td>
+<td>How to sort the result</td>
+<td><code class="highlight">title</code>, <code class="highlight">title_reversed</code>, <code class="highlight">date_added</code>, <code class="highlight">date_added_reversed</code></td>
+</tr>
+<tr>
+<td>query</td>
+<td>Yes</td>
+<td>The search term</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="templatesintt_id"><code class="highlight">/templates/&lt;int:t_id&gt;</code><a class="headerlink" href="#templatesintt_id" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Manage a specific template</td>
+</tr>
+</tbody>
+</table>
+<p>Replace <code class="highlight">&lt;int:t_id&gt;</code> with the ID of the entry. For example: <code class="highlight">/templates/2</code>.</p>
+<details class="get">
+<summary>Get</summary>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>404</td>
+<td>TemplateNotFound</td>
+<td>The template was not found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="put">
+<summary>Put</summary>
+<p>Edit the template</p>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>No</td>
+<td>The title of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>notification_services</td>
+<td>No</td>
+<td>Array of the id's of the notification services to use to send the notification</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>text</td>
+<td>No</td>
+<td>The body of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>color</td>
+<td>No</td>
+<td>The hex code of the color of the entry, which is shown in the web-ui</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NotificationServiceNotFound</td>
+<td>The notification service was not found</td>
+</tr>
+<tr>
+<td>404</td>
+<td>TemplateNotFound</td>
+<td>The template was not found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="delete">
+<summary>Delete</summary>
+<p>Delete the template</p>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>404</td>
+<td>TemplateNotFound</td>
+<td>The template was not found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="staticreminders"><code class="highlight">/staticreminders</code><a class="headerlink" href="#staticreminders" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Manage the static reminders</td>
+</tr>
+</tbody>
+</table>
+<details class="get">
+<summary>Get</summary>
+<p>Get a list of all static reminders</p>
+<p><strong>Parameters (url)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sort_by</td>
+<td>No</td>
+<td>How to sort the result</td>
+<td><code class="highlight">title</code>, <code class="highlight">title_reversed</code>, <code class="highlight">date_added</code>, <code class="highlight">date_added_reversed</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="post">
+<summary>Post</summary>
+<p>Add a static reminder</p>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>Yes</td>
+<td>The title of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>notification_services</td>
+<td>Yes</td>
+<td>Array of the id's of the notification services to use to send the notification</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>text</td>
+<td>No</td>
+<td>The body of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>color</td>
+<td>No</td>
+<td>The hex code of the color of the entry, which is shown in the web-ui</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>201</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+<tr>
+<td>400</td>
+<td>KeyNotFound</td>
+<td>A key was not found in the input that is required to be given</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NotificationServiceNotFound</td>
+<td>The notification service was not found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="staticreminderssearch"><code class="highlight">/staticreminders/search</code><a class="headerlink" href="#staticreminderssearch" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Search through the list of staticreminders</td>
+</tr>
+</tbody>
+</table>
+<details class="get">
+<summary>Get</summary>
+<p><strong>Parameters (url)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sort_by</td>
+<td>No</td>
+<td>How to sort the result</td>
+<td><code class="highlight">title</code>, <code class="highlight">title_reversed</code>, <code class="highlight">date_added</code>, <code class="highlight">date_added_reversed</code></td>
+</tr>
+<tr>
+<td>query</td>
+<td>Yes</td>
+<td>The search term</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="staticremindersints_id"><code class="highlight">/staticreminders/&lt;int:s_id&gt;</code><a class="headerlink" href="#staticremindersints_id" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Requires being logged in</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Manage a specific static reminder</td>
+</tr>
+</tbody>
+</table>
+<p>Replace <code class="highlight">&lt;int:s_id&gt;</code> with the ID of the entry. For example: <code class="highlight">/staticreminders/2</code>.</p>
+<details class="get">
+<summary>Get</summary>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>404</td>
+<td>ReminderNotFound</td>
+<td>The reminder with the id can not be found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="post">
+<summary>Post</summary>
+<p>Trigger the static reminder</p>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>201</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>404</td>
+<td>ReminderNotFound</td>
+<td>The reminder with the id can not be found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="put">
+<summary>Put</summary>
+<p>Edit the static reminder</p>
+<p><strong>Parameters (body)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Description</th>
+<th>Allowed values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>No</td>
+<td>The title of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>notification_services</td>
+<td>No</td>
+<td>Array of the id's of the notification services to use to send the notification</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>text</td>
+<td>No</td>
+<td>The body of the entry</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>color</td>
+<td>No</td>
+<td>The hex code of the color of the entry, which is shown in the web-ui</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>400</td>
+<td>InvalidKeyValue</td>
+<td>The value of a key is invalid</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NotificationServiceNotFound</td>
+<td>The notification service was not found</td>
+</tr>
+<tr>
+<td>404</td>
+<td>ReminderNotFound</td>
+<td>The reminder with the id can not be found</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="delete">
+<summary>Delete</summary>
+<p>Delete the static reminder</p>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Error</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>N/A</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>404</td>
+<td>ReminderNotFound</td>
+<td>The reminder with the id can not be found</td>
+</tr>
+</tbody>
+</table>
+</details>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-06-20T22:19:49+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-06-20</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-06-29T15:37:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-06-29</span>
       
     
   </small>
@@ -542,7 +2569,7 @@
     <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link", "content.code.copy", "header.autohide", "navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.a51614de.min.js"></script>
+      <script src="../assets/javascripts/bundle.b425cdc4.min.js"></script>
       
         
           <script src="../js/timeago.min.js"></script>
